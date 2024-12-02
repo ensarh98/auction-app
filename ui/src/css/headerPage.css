@@ -1,0 +1,262 @@
+.frame170hp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 100%;
+  height: 113.94px;
+  left: 0px;
+  top: 0px;
+}
+
+.frame168hp {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+  height: 113.94px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame369 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  height: 25px;
+  left: 12.43%;
+  right: 80.21%;
+  top: calc(50% - 25px / 2 + 0.5px);
+}
+
+.frame108hp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 73px;
+  width: 1052px;
+  height: 57.94px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.auction-app-logo-hp {
+  width: 163px;
+  height: 56px;
+  background: url("/public/auction-app-logo.png");
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background-size: cover;
+}
+
+.frame107hp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 816px;
+  height: 57.94px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.searchBar {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 372px;
+  width: 548px;
+  height: 57.94px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input ::-webkit-input-placeholder {
+  width: 99px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame119 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 65.94px;
+  height: 33.94px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame16 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  width: 244px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.homeText {
+  width: 50px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.shopText {
+  width: 38px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.myaccountText {
+  width: 108px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.createText {
+  width: max-content;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.logoutText {
+  width: max-content;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  align-self: center;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  width: 108px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #252525 !important;
+  padding: 0 !important;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.css-1ka5eyc-MuiPaper-root-MuiMenu-paper-MuiPopover-paper {
+  color: #252525 !important;
+  border-radius: 0px !important;
+  box-shadow: 0px 0px 0px 0px !important;
+  border: 1px solid #d8d8d8;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  font-family: "Lato" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  color: #252525 !important;
+}
+
+.linkItem {
+  text-decoration: none !important;
+  color: #252525 !important;
+}

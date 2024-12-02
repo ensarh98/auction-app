@@ -1,0 +1,165 @@
+.header {
+  position: absolute;
+  width: 1440px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  box-sizing: border-box;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #252525;
+}
+
+.frame_369 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  left: 12.43%;
+  right: 80.21%;
+  top: 20%;
+  bottom: 17.5%;
+}
+
+.group161 {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  top: 132px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+}
+
+.frame185h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  top: 56px;
+}
+.frame176 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 1112px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame108 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 73px;
+  width: 1112px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.akar {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #9b9b9b;
+}
+
+.frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  left: 74.41%;
+  right: 11.15%;
+  top: 21.25%;
+  bottom: 18.75%;
+}
+
+.loginText {
+  width: 34px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.orText {
+  width: 14px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.createText {
+  width: max-content;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.auction-app-logo {
+  position: absolute;
+  width: 163px;
+  height: 56px;
+  background: url("/public/auction-app-logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background-color: none !important;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

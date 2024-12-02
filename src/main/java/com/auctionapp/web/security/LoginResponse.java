@@ -1,5 +1,8 @@
 package com.auctionapp.web.security;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * @author Ensar Horozović
  */
@@ -8,6 +11,12 @@ package com.auctionapp.web.security;
 @Setter
 public class LoginResponse {
 
-	private String name;
+	private Integer id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String address;
+	private String phone;
+	private String city;
 
 }

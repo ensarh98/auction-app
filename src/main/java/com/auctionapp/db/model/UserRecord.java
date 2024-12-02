@@ -33,7 +33,7 @@ public class UserRecord {
     private String address;
     private String city;
     private String phone;
-    private String photo;
+    private Integer photoId;
     private Date registrationDate;
     private byte[] secret;
 }

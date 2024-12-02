@@ -1,0 +1,382 @@
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.frame223 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 1440px;
+  top: 150px;
+}
+
+.frame222 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 119px;
+  width: 1440px;
+  height: 616px;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame218 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 262px;
+  height: 616px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame217 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 262px;
+  height: 616px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame216 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  width: 262px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.categoriesText {
+  width: 96px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame208 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 262px;
+  height: 560px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame206 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 262px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame205 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+  width: 262px;
+  height: 56px;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.categoryName {
+  width: 54px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.line11 {
+  width: 261px;
+  height: 0px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame220 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+  width: 739px;
+  height: 420px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame221 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+  width: 346px;
+  height: 420px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame219 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 346px;
+  height: 248px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.articalName {
+  width: 105px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.startPrice {
+  width: 129px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.articalDetails {
+  width: 346px;
+  height: 168px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.bidNow {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 16px;
+  width: 168px;
+  height: 51px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.bidNowText {
+  width: 72px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.reactangle54 {
+  width: 357px;
+  height: 420px;
+  background: url("/public/Rectangle\ 54.png");
+  background-size: cover;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame125 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 1116px;
+  /*height: 634.57px;*/
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame171 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 1116px;
+  height: 52px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.fProducts {
+  width: 216px;
+  height: 36px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.line10 {
+  width: 1116px;
+  height: 0px;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1116px;
+  height: 550.57px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 356px;
+  height: 550.57px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.reactangle18 {
+  width: 356px;
+  height: 475.57px;
+  left: 0px;
+  top: 0px;
+  background: url("/public/Rectangle\ 54.png");
+}
+
+.productName {
+  width: 189px;
+  height: 36px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.productStartPrice {
+  width: 127px;
+  height: 19px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

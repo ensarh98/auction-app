@@ -88,6 +88,9 @@ public class SubcategoryService {
             throw new AppException(AppException.VALIDATION_ERROR, messageSource.getMessage("MISSING_DATA", null, LocaleContextHolder.getLocale()));
         }
 
+        subcategoryRepository.findById(subcategoryId).orElseThrow(
+                () -> new AppException(AppException.INTERNAL_ERROR, messageSource.getMessage("RECORD_NOT_EXIST", null, LocaleContextHolder.getLocale())));
+
         subcategoryRepository.deleteById(subcategoryId);
     }
 }

@@ -1,0 +1,201 @@
+footer {
+  position: absolute;
+  width: 100%;
+  height: 356px;
+  left: 0px;
+  box-sizing: border-box;
+  bottom: 0%;
+  background: #252525;
+}
+
+.frame32 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 225px;
+  height: 97px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame33 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  left: 11.18%;
+  right: 78.26%;
+  top: 8.71%;
+  bottom: 50.84%;
+}
+
+.frame34 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  left: 73.26%;
+  right: 11.11%;
+  top: 9.27%;
+  bottom: 50%;
+}
+
+.frame35 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 225px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.callUsAt {
+  width: 67px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.phoneNum {
+  width: 146px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.support {
+  width: 154px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame36 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 106px;
+  height: 25px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame369 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 106px;
+  height: 25px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.getInTouch {
+  width: 111px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.auction {
+  width: 72px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.aboutUs {
+  width: 66px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.termsAndCond {
+  width: 152px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.privacyAndPolicy {
+  width: 127px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d8d8d8;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}

@@ -12,11 +12,9 @@ import org.springframework.context.support.ReloadableResourceBundleMessageSource
 public class MessageConfig {
     @Bean
     public MessageSource messageSource() {
-        ReloadableResourceBundleMessageSource messageSource
-                = new ReloadableResourceBundleMessageSource();
+        ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
         messageSource.setBasenames(
-                "classpath:/messages"
-        );
+                "classpath:/messages");
         messageSource.setDefaultEncoding("UTF-8");
         return messageSource;
     }

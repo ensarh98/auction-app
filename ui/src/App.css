@@ -1,0 +1,7 @@
+.page {
+  box-sizing: border-box;
+  position: relative;
+  height: 1654px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+}

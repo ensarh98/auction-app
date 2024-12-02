@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+.register-form-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reactangle11 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  left: 0px;
+  top: 132px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+}
+
+.reactangle16 {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #252525;
+}
+
+.frame184r {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 738px;
+  height: 995px;
+  top: 173px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+}
+
+.frame180r {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 48px;
+  width: 738px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.registerTitle {
+  width: 116px;
+  height: 36px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame178r {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 23px 301px;
+  gap: 10px;
+  width: 738px;
+  height: 82px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame179R {
+  width: 548px;
+  height: 733px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame185r {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  position: absolute;
+  width: 252px;
+  height: 66px;
+  left: 391px;
+  top: 845px;
+}
+
+.cta {
+  box-sizing: border-box;
+  width: 252px;
+  height: 66px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.loginWithGmail {
+  position: absolute;
+  width: 129px;
+  height: 24px;
+  left: 74px;
+  top: 19.5px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.image6 {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 24px;
+  top: 16px;
+  background: url("https://pluspng.com/img-png/letter-g-hd-png-open-2000.png");
+  background-size: cover;
+}
+
+.ctaFbR {
+  box-sizing: border-box;
+  position: absolute;
+  width: 285px;
+  height: 66px;
+  top: 845px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+}
+
+.image6Fb {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 24px;
+  top: 16px;
+  background: url("https://th.bing.com/th/id/R.6be2bd4115d632875cb39aacad994263?rik=vv7dgFoUnNq80A&riu=http%3a%2f%2frobverschoor.nl%2fmedia%2fimages%2ffacebook-flat-vector-logo-400x400.png%3fep%3dgKCJaqyBFCmMK1YLvp6sz-i8MYoVeJi_GWv-PezkjTO-6YIo--64SF0FzC22b-W3tk1GhB-oy836Nepwsn77SQ%2c%2c&ehk=x7TSjkpe9S2LvjLkxAaJ%2fagxjH5brsr1B6uV1%2frpAmE%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+}
+
+.ctaReg {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 56px;
+  gap: 32px;
+  position: absolute;
+  width: 548px;
+  height: 56px;
+  top: 760px;
+  background: #8367d8;
+}
+
+.loginWithFb {
+  position: absolute;
+  width: 156px;
+  height: 24px;
+  left: 74px;
+  top: 19px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.regButton {
+  width: 74px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame268 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 548px;
+  height: 496px;
+}
+
+.inputFirstName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 100px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputLastName {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 100px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.inputEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 100px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.inputPassword {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 100px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.labelText {
+  width: 100px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame239 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 42px 18px 24px;
+  gap: 10px;
+  width: 548px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame268 div ::placeholder {
+  width: 134px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame186 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 252px;
+  height: 24px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.alreadyText {
+  width: 181px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.loginTextRegister {
+  width: 39px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+  text-decoration: none;
+}

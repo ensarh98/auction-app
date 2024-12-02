@@ -1,7 +1,10 @@
 package com.auctionapp.controller;
 
+import com.auctionapp.attachment.Attachment;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.AccessDeniedException;
@@ -11,8 +14,12 @@ import com.auctionapp.common.AppException;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 
+import java.io.ByteArrayInputStream;
+
 /**
- * Base controller for handling exceptions and returning standardized error responses.
+ * Base controller for handling exceptions and returning standardized error
+ * responses.
+ * 
  * @author Ensar Horozović
  */
 @ApiResponses(value = {
@@ -54,6 +61,18 @@ public class BaseController {
 
 		var details = new ErrorDetails(AppException.UNAUTHORIZED_ERROR, ex.getMessage());
 		return new ResponseEntity<>(details, HttpStatus.FORBIDDEN);
+	}
+
+	protected ResponseEntity<InputStreamResource> buildDownloadResponse(Attachment attachment) {
+
+		var headers = new HttpHeaders();
+		headers.add(HttpHeaders.CONTENT_DISPOSITION,
+				String.format("attachment; filename=%s", attachment.getFilename()));
+		headers.add(HttpHeaders.CONTENT_TYPE, attachment.getType());
+
+		var body = new InputStreamResource(new ByteArrayInputStream(attachment.getData()));
+
+		return ResponseEntity.ok().headers(headers).contentLength(attachment.getData().length).body(body);
 	}
 
 	public static class ErrorDetails {

@@ -15,6 +15,7 @@ import java.util.List;
  * @author Ensar Horozović
  */
 @RestController
+@CrossOrigin
 @RequestMapping("/api/bids")
 public class BidController extends BaseController {
 

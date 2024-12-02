@@ -1,0 +1,597 @@
+.price-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.group160ab {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 132px;
+  background-color: #fafafa;
+}
+
+.sellerTextab {
+  position: absolute;
+  width: 125px;
+  height: 24px;
+  left: 20%;
+  top: 18px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.frame204ab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 192.44px;
+  height: 24px;
+  left: 70%;
+  top: 151px;
+}
+
+.myAccountTextab {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #9b9b9b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.slashTextab {
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.becomeSellerTextab {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #8367d8;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame434ab {
+  position: absolute;
+  width: 738px;
+  height: 64px;
+  top: 232px;
+}
+
+.reactangle66ab {
+  box-sizing: border-box;
+  position: absolute;
+  width: 738px;
+  height: 625px;
+  left: 0px;
+  top: 64px;
+  border: 1px solid #d8d8d8;
+}
+
+.frame178ab {
+  position: absolute;
+  width: 736px;
+  height: 75px;
+  left: 0px;
+  background-color: #fafafa;
+}
+
+.setPriceTextab {
+  position: absolute;
+  width: 490px;
+  height: 36px;
+  left: 305.5px;
+  top: 23px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+}
+
+.frame179ab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  position: absolute;
+  width: 548px;
+  height: 784px;
+  top: 419px;
+}
+
+.frame435ab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 548px;
+  height: 784px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.yourStartPriceab {
+  width: 109px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputPriceab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 104px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame230ab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 548px;
+  height: 64px;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame227ab {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 548px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame40ab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 0px;
+  width: 220px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame229ab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 240px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.wordsCharactersDescTextab {
+  width: 180px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  color: #9b9b9b;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: auto;
+}
+
+.frame228ab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 548px;
+  height: 160px;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  color: #252525;
+  resize: none;
+}
+
+.nextButtonsap {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 56px;
+  gap: 40px;
+  width: 262px;
+  height: 51px;
+  background: #8367d8;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.nextTextab {
+  width: 42px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame230ab {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 548px;
+  height: 51px;
+  left: 446px;
+  top: 1274px;
+  order: 3;
+  justify-content: right;
+}
+
+.frame236ab {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame235ab {
+  width: 64px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+}
+
+.dollarText {
+  position: absolute;
+  width: 10px;
+  height: 24px;
+  left: 26px;
+  top: 60px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.line13ab {
+  position: absolute;
+  width: 64px;
+  height: 0px;
+  left: 30px;
+  top: 71.5px;
+  border: 1px solid #d8d8d8;
+  transform: rotate(90deg);
+}
+
+.frame234ab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 548px;
+  height: 64px;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.reactangle38ab {
+  width: 484px;
+  height: 59px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+  border: 1px solid #d8d8d8;
+}
+
+.frame274ab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 549px;
+  height: 176px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame238ab {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 549px;
+  height: 104px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.inputStartDate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 251px;
+  height: 104px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputEndDate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 251px;
+  height: 104px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.startDateText {
+  width: 70px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.endDateText {
+  width: 63px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame237abs {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 251px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame237abe {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 10px;
+  width: 251px;
+  height: 64px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame40ab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 0px;
+  width: 203px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+}
+
+.pricesTextDescAb {
+  width: 549px;
+  height: 48px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame275ab {
+  gap: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame456ab {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 47px;
+  width: 549px;
+  height: 51px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.backButtonab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 16px;
+  width: 130px;
+  height: 51px;
+  border: 3px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nextButtonab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 16px;
+  width: 130px;
+  height: 51px;
+  border: 3px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.backButtonText {
+  width: 32spx;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+}
+
+.nextButtonText {
+  width: 48px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+}

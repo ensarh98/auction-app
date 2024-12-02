@@ -1,10 +1,16 @@
 package com.auctionapp.controller;
 
+import com.auctionapp.common.UploadFileResponse;
 import com.auctionapp.item.Item;
 import com.auctionapp.item.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.io.InputStreamResource;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.IOException;
 import java.util.List;
 
 /**
@@ -14,8 +20,9 @@ import java.util.List;
  * @author Ensar Horozović
  */
 @RestController
-@RequestMapping("/api/items")
-public class ItemController extends BaseController{
+@CrossOrigin
+@RequestMapping("/items")
+public class ItemController extends BaseController {
 
     @Autowired
     private ItemService itemService;
@@ -38,5 +45,18 @@ public class ItemController extends BaseController{
     @DeleteMapping("/{id}")
     public void deleteItem(@PathVariable Integer id) {
         itemService.deleteItem(id);
+    }
+
+    @ResponseStatus(value = HttpStatus.OK)
+    @PostMapping("/{id}/photo")
+    public UploadFileResponse uploadImage(@PathVariable Integer id, @RequestPart(value = "file") MultipartFile file)
+            throws IOException {
+        return itemService.uploadPhotoItem(id, file);
+    }
+
+    @GetMapping("/{id}/photo")
+    public ResponseEntity<InputStreamResource> downloadImage(@PathVariable Integer id) {
+        var attachment = itemService.getItemPhoto(id);
+        return buildDownloadResponse(attachment);
     }
 }

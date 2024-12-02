@@ -1,0 +1,503 @@
+.product-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.group160sp {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 132px;
+  background-color: #fafafa;
+}
+
+.sellerTextsp {
+  position: absolute;
+  width: 125px;
+  height: 24px;
+  left: 20%;
+  top: 18px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.frame204sp {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 192.44px;
+  height: 24px;
+  left: 70%;
+  top: 151px;
+}
+
+.myAccountText {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #9b9b9b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.slashText {
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.becomeSellerText {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #8367d8;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame434sp {
+  position: absolute;
+  width: 738px;
+  height: 64px;
+  top: 232px;
+}
+
+.reactangle66 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 738px;
+  height: 967px;
+  left: 0px;
+  top: 64px;
+  border: 1px solid #d8d8d8;
+}
+
+.frame178sp {
+  position: absolute;
+  width: 736px;
+  height: 75px;
+  left: 0px;
+  background-color: #fafafa;
+}
+
+.addItemTextsp {
+  position: absolute;
+  width: 490px;
+  height: 36px;
+  left: 130.5px;
+  top: 23px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+}
+
+.frame179sp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  position: absolute;
+  width: 548px;
+  height: 784px;
+  top: 419px;
+}
+
+.frame435sp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 548px;
+  height: 784px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.whatDoYouSellText {
+  width: 126px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputItemsp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 100px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame230sp {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 42px 18px 24px;
+  gap: 10px;
+  width: 548px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.wordsCharactersText {
+  width: 180px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  color: #9b9b9b;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: auto;
+}
+
+.frame227sp {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 548px;
+  height: 48px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame40sp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 96px;
+  width: 220px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dropdownCategory {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 262px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dropdownCategory select {
+  width: 240px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+
+.dropdownSubategory {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 262px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.dropdownSubategory select {
+  width: 240px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+
+.frame229sp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 240px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 200px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.descriptionTextsp {
+  width: 83px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.wordsCharactersDescText {
+  width: 180px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  color: #9b9b9b;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-left: auto;
+}
+
+.frame228sp {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 548px;
+  height: 160px;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-family: "Lato";
+  font-style: normal;
+  font-size: 16px;
+  color: #252525;
+  resize: none;
+}
+
+.inputPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 300px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  box-sizing: border-box;
+  position: relative;
+  left: 0px;
+  top: -0.5px;
+  background: #ffffff;
+  border: 1px dashed #d8d8d8;
+}
+
+.frame233sp {
+  width: 548px;
+  height: 300px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame231sp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 146px;
+  height: 96px;
+  left: 201px;
+  top: 103.5px;
+}
+
+.frame232sp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 146px;
+  height: 56px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.uploadPhotosText {
+  width: 105px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.orJustDragAndDrop {
+  width: 146px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.AddAtLeast3Photos {
+  width: 139px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.uploadPhotosInput {
+  display: none;
+}
+
+.nextButtonsap {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 56px;
+  gap: 40px;
+  width: 262px;
+  height: 51px;
+  background: #8367d8;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.nextTextab {
+  width: 42px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.frame230abb {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 548px;
+  height: 51px;
+  left: 446px;
+  top: 1274px;
+  order: 3;
+  justify-content: right;
+  text-decoration: none;
+}

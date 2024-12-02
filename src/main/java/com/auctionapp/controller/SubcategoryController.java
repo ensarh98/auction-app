@@ -16,6 +16,7 @@ import java.util.List;
  * @author Ensar Horozović
  */
 @RestController
+@CrossOrigin
 @RequestMapping("/api/subcategories")
 public class SubcategoryController extends BaseController {
 

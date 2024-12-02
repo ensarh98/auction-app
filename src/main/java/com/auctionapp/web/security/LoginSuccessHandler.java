@@ -6,6 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.auctionapp.db.repository.UserRepository;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 import org.springframework.security.web.savedrequest.HttpSessionRequestCache;
@@ -31,6 +32,9 @@ public class LoginSuccessHandler extends SimpleUrlAuthenticationSuccessHandler {
 
 	@Autowired
 	private ObjectMapper objectMapper;
+
+	@Autowired
+	private UserRepository userRepository;
 
 	@Override
 	public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
@@ -64,8 +68,15 @@ public class LoginSuccessHandler extends SimpleUrlAuthenticationSuccessHandler {
 
 	private LoginResponse buildResponse(Authentication authentication) {
 
+		var user = userRepository.findOneByEmail(authentication.getName());
 		var loginResponse = new LoginResponse();
-		loginResponse.setName(authentication.getName());
+		loginResponse.setId(user.getId());
+		loginResponse.setEmail(user.getEmail());
+		loginResponse.setFirstName(user.getFirstName());
+		loginResponse.setLastName(user.getLastName());
+		loginResponse.setCity(user.getCity());
+		loginResponse.setAddress(user.getAddress());
+		loginResponse.setPhone(user.getPhone());
 
 		return loginResponse;
 	}

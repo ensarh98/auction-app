@@ -1,0 +1,344 @@
+.address-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.group160ab {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 132px;
+  background-color: #fafafa;
+}
+
+.sellerTextab {
+  position: absolute;
+  width: 125px;
+  height: 24px;
+  left: 20%;
+  top: 18px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.frame204ab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  position: absolute;
+  width: 192.44px;
+  height: 24px;
+  left: 70%;
+  top: 151px;
+}
+
+.myAccountTextab {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #9b9b9b;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.slashTextab {
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.becomeSellerTextab {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #8367d8;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame432ls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  width: 738px;
+  height: 1017px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.frame184ls {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 738px;
+  height: 953px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame180ls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 64px;
+  gap: 48px;
+  width: 738px;
+  height: 953px;
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame179ls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  width: 550px;
+  height: 759px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame434ls {
+  position: absolute;
+  width: 738px;
+  height: 64px;
+  top: 232px;
+}
+
+.reactangle66ls {
+  box-sizing: border-box;
+  position: absolute;
+  width: 738px;
+  height: 312px;
+  left: 0px;
+  top: 64px;
+  border: 1px solid #d8d8d8;
+}
+
+.frame178ls {
+  position: absolute;
+  width: 736px;
+  height: 75px;
+  left: 0px;
+  background-color: #fafafa;
+}
+
+.locationAndShippingTextls {
+  position: absolute;
+  width: 490px;
+  height: 36px;
+  left: 305.5px;
+  top: 23px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+}
+
+.frame457ls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 550px;
+  height: 644px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.inputAddress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 100px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.addressText {
+  width: 48px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+}
+
+.frame179ls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 64px;
+  position: absolute;
+  width: 548px;
+  height: 784px;
+  top: 419px;
+}
+
+.frame275ls {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputAddressls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 548px;
+  height: 104px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.yourStartPricels {
+  width: 109px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.reactangle38ls {
+  width: 543px;
+  height: 59px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+  border: 1px solid #d8d8d8;
+}
+
+.frame456ls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 47px;
+  width: 549px;
+  height: 51px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.backButtonls {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 16px;
+  width: 130px;
+  height: 51px;
+  border: 3px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.backButtonText {
+  width: 32spx;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+}
+
+.nextButtonls {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 56px;
+  gap: 40px;
+  width: 130px;
+  height: 51px;
+  background: #8367d8;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+.nextButtonText {
+  width: 48px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+}

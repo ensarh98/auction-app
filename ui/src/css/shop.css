@@ -1,0 +1,518 @@
+.frame173sh {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1120px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame273sh {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 1120px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame14sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 262px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame11sh {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 24px 32px;
+  gap: 10px;
+  width: 262px;
+  height: 720px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame13sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 214px;
+  height: 664px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame174sh {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 9%;
+}
+
+.frame176sh {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 32px;
+  width: 1120px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.productCategoriesTextSh {
+  width: 177px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame12sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 214px;
+  height: 312px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame18sh {
+  width: 56px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame45sh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 148px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame45TextSh {
+  width: 116px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.checkboxSubcategory {
+  width: 24px;
+  height: 24px;
+}
+
+.categoryTextSh {
+  width: 56px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame201sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 834px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame102sh {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 492px;
+  width: 834px;
+  height: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame41sh {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 268px;
+  height: 48px;
+  background: #ffffff;
+  border: 2px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame87sh {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 144px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame40sh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 96px;
+  width: 220px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border: none;
+}
+
+.dropdownText {
+  width: 108px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame451sh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 63px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.gridTextSh {
+  width: 31px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame452sh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 57px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.listTextSh {
+  width: 25px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.gridVectorSh {
+  left: 8.33%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 8.33%;
+  color: #9b9b9b;
+}
+
+.listVectorSh {
+  left: 12.5%;
+  right: 16.67%;
+  top: 29.17%;
+  bottom: 25%;
+  color: #8367d8;
+}
+
+.frame202sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 820px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.productSh {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 820px;
+  height: 350px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame4sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 262px;
+  height: 350px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame5sh {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 534px;
+  height: 350px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.reactangle10sh {
+  width: 262px;
+  height: 350px;
+  left: 0px;
+  top: 0px;
+}
+
+.frame197sh {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 534px;
+  height: 172px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.startFromTextSh {
+  width: 129px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8367d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.titleItemText {
+  width: 189px;
+  height: 36px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.84px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.descriptionItemTextSh {
+  width: 534px;
+  height: 120px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9b9b9b;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.wishlistTextSh {
+  width: 57px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame200sh {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 192px;
+  height: 40px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.frame198sh {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+  width: 105px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame199sh {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+  width: 71px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.bidItemTextSh {
+  width: 23px;
+  height: 24px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #252525;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
